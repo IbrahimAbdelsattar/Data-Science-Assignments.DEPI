@@ -1,2 +1,2 @@
 # Ibrahim-Abdelsattar.DEPI
-## All Assignments and Exercises 
+## All Assignments and WorkShop 
