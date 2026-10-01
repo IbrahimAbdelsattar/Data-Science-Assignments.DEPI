@@ -1,219 +1,47 @@
-<br/><br/>
+# DEPI Python Assignments
 
-<!-- Animated Title -->
-<a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=Data Science Assignments Depi+%F0%9F%9A%80;Enterprise+Data+Science+%26+AI;Interactive+Analytics+%26+ML;Built+by+Ibrahim+Abdelsattar" alt="Typing SVG"/>
-</a>
+A collection of introductory Python exercises and small interactive programs completed during the Digital Egypt Pioneers Initiative.
 
-<br/>
+**Technology:** Python · Jupyter Notebook
 
-<p align="center">
-  <b>Enterprise-Grade Data Science & Software Engineering Solution</b><br/>
-  <i>Data Science Tools · Software Development</i>
-</p>
+## Features
 
-<br/>
+- Practice functions, conditionals, loops, strings, lists, tuples, and dictionaries.
+- Implement vowel counting, maximum selection, tuple addition, and a number-guessing game.
+- Build an interactive calculator with division-by-zero handling.
+- Explore comprehensions, factorials, character counts, slicing, and simple patterns.
 
-<!-- Badges Row -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Data%20Science%20Tools-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Software%20Development-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/License-Academic-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
-</p>
+## Repository guide
 
-<br/>
+| Path | Purpose |
+|---|---|
+| [Assignment-1-a.ipynb](Assignment-1-a.ipynb) | Vowel counting and finding a list maximum. |
+| [Assignment-1-b.ipynb](Assignment-1-b.ipynb) | Functions, tuple sums, guessing game, and word-index dictionaries. |
+| [mini_project_1.ipynb](mini_project_1.ipynb) | Repeating two-number calculator. |
+| [workshop_2.ipynb](workshop_2.ipynb) | Python fundamentals practice. |
 
-<!-- Quick Links -->
-<p align="center">
-  <a href="#-overview"><img src="https://img.shields.io/badge/📌-Overview-7C3AED?style=flat-square"/></a>
-  &nbsp;
-  <a href="#-core-features"><img src="https://img.shields.io/badge/🔥-Features-E11D48?style=flat-square"/></a>
-  &nbsp;
-  <a href="#%EF%B8%8F-system-architecture"><img src="https://img.shields.io/badge/🏗️-Architecture-0891B2?style=flat-square"/></a>
-  &nbsp;
-  <a href="#-technical-stack"><img src="https://img.shields.io/badge/⚙️-Tech%20Stack-16A34A?style=flat-square"/></a>
-  &nbsp;
-  <a href="#-getting-started"><img src="https://img.shields.io/badge/🚀-Getting%20Started-F59E0B?style=flat-square"/></a>
-</p>
+## Requirements and current limitations
 
-<br/>
+Run cells individually in Jupyter; several exercises use `input()` and wait for a response. The notebooks record learning exercises, so prompt requirements and implementations may differ in places. No external dataset or trained model is required for these exercises.
 
----
-
-## 📌 Overview
-
-**Data Science Assignments Depi** is an advanced software and data science repository engineered by **Ibrahim Abdelsattar**. It implements end-to-end data processing pipelines, predictive machine learning models, and production-ready code structures tailored for analytical precision and operational reliability.
-
-> Designed for seamless integration, high scalability, and robust computational performance.
-
----
-
-## 🎯 Problem & Solution Architecture
-
-<table>
-<tr>
-<td width="50%">
-
-### ❌ The Challenge
-
-Traditional analytical approaches face critical operational limitations:
-
-- 📉 Manual data wrangling and non-standardized preprocessing
-- 🔮 Lack of feature attribution and model explainability
-- ⚠️ Unoptimized hyperparameters leading to sub-optimal accuracy
-- 🔄 Inefficient deployment workflows and missing pipeline automation
-
-</td>
-<td width="50%">
-
-### ✅ Our Solution
-
-| Challenge | Implemented Solution |
-|-----------|----------------------|
-| Raw Data Noise | Automated cleaning & feature encoding |
-| Low Accuracy | Tuned ML ensembles & robust evaluation |
-| Deployment Gaps | Modular CLI/Web interfaces & reproducible scripts |
-| Missing Insights | Visual metric plots & structured reporting |
-
-</td>
-</tr>
-</table>
-
----
-
-## 🔥 Core Features
-
-<table>
-<tr>
-
-<td align="center" width="33%">
-<br/>
-<b>⚡ High Performance Architecture</b><br/><br/>
-Modular Code Structure<br/>
-Scalable Design Patterns<br/>
-Robust Error Handling<br/>
-Clean Interface Abstractions<br/><br/>
-</td>
-<td align="center" width="33%">
-<br/>
-<b>📊 Data Preprocessing & EDA</b><br/><br/>
-Automated Missing Value Imputation<br/>
-Feature Engineering & Scaling<br/>
-Outlier Detection & Removal<br/>
-Exploratory Data Analysis Plots<br/><br/>
-</td>
-<td align="center" width="33%">
-<br/>
-<b>🎯 Production Guardrails</b><br/><br/>
-Strict Input Validation<br/>
-Reproducible Seed Setting<br/>
-Model Artifact Persistence<br/>
-Comprehensive Logging<br/><br/>
-</td>
-</tr>
-</table>
-
----
-
-## 🏗️ System Architecture & Data Flow
-
-<br/>
-
-```mermaid
-flowchart LR
-    A["📥 Data Ingestion
-Raw Datasets / Inputs"] --> B["🧹 Preprocessing & Cleaning
-Feature Scaling & Encoding"]
-    B --> C["⚙️ Feature Engineering
-Domain Transformation"]
-    C --> D["🤖 Machine Learning Pipeline
-Model Training & Evaluation"]
-    D --> E["📊 Predictive Output & Metrics
-Interactive Dashboard / Reports"]
-    style A fill:#1e1b4b,color:#a5b4fc
-    style B fill:#312e81,color:#c7d2fe
-    style D fill:#1e3a5f,color:#93c5fd
-    style E fill:#14532d,color:#86efac
-```
-
----
-
-## ⚙️ Technical Stack
-
-<div align="center">
-
-| Layer | Technology | Purpose |
-|-------|-----------|---------|
-| **Data Science Tools** | Core Framework / Library | Primary computing and analytical engine |
-| **Software Development** | Core Framework / Library | Primary computing and analytical engine |
-
-</div>
-
----
-
-
-
-## 📁 Directory Structure
-
-<details>
-<summary><b>📂 Click to expand repository tree</b></summary>
-
-```
-Data-Science-Assignments.DEPI/
-├── 372045enghema###
-├── 372045enghema###.pub
-├── Assignment-1-a.ipynb
-├── Assignment-1-b.ipynb
-├── Ibrahim Abdelsattar's Resume.pdf
-├── README.md
-├── mini_project_1.ipynb
-├── workshop_2.ipynb
-```
-
-</details>
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.10+ (or Node.js 18+ for web apps)
-- Git & Virtualenv
-
-### Installation & Execution
+## Getting started
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/IbrahimAbdelsattar/Data-Science-Assignments.DEPI.git
 cd Data-Science-Assignments.DEPI
-
-# 2. Set up virtual environment (Python)
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-
-# 3. Install dependencies
-# Install dependencies listed in codebase
-
-# 4. Launch project execution
-jupyter notebook
 ```
 
----
+Use a Python virtual environment:
 
-## 👤 Author & Contact
+```bash
+python -m venv .venv
+```
 
-<div align="center">
+Activate it with `source .venv/bin/activate` on macOS/Linux or `.venv\Scripts\Activate.ps1` in PowerShell.
 
-**Ibrahim Abdelsattar**  
-*Data Scientist & AI Specialist · MTI University (CS & AI, GPA 3.5)*
+```bash
+python -m pip install jupyter
+python -m jupyter notebook
+```
 
-[Email](mailto:ibrahimabdelsattar042@gmail.com) · [GitHub](https://github.com/IbrahimAbdelsattar) · [LinkedIn](https://linkedin.com/in/ibrahim-abdelsattar)
-
-<br/>
-
-<img src="https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Maintained%20by-Ibrahim%20Abdelsattar-7C3AED?style=for-the-badge"/>
-
-</div>
+Open the notebook listed above and run its cells in order. Adjust dataset and model paths as described in the limitations section.
