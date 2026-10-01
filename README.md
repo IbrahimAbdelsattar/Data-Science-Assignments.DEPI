@@ -24,6 +24,25 @@ A collection of introductory Python exercises and small interactive programs com
 
 Run cells individually in Jupyter; several exercises use `input()` and wait for a response. The notebooks record learning exercises, so prompt requirements and implementations may differ in places. No external dataset or trained model is required for these exercises.
 
+## UML diagrams
+
+### Calculator exercise states
+
+This UML state diagram summarizes the interactive calculator exercise, one of the repository's foundational Python assignments.
+
+```mermaid
+stateDiagram-v2
+    direction TB
+    [*] --> ReadOperands
+    ReadOperands --> ChooseOperator: Read two integers
+    ChooseOperator --> Calculate: Valid operator
+    ChooseOperator --> Result: Invalid operator message
+    Calculate --> Result: Value or division-by-zero message
+    Result --> RepeatPrompt: Display result
+    RepeatPrompt --> ReadOperands: Input other than stop
+    RepeatPrompt --> [*]: stop
+```
+
 ## Getting started
 
 ```bash
